@@ -12,6 +12,4 @@
  * @author Alexandre XYZ
  */
 require_once 'Pessoa.php';
-class Visitante extends Pessoa{
-    
-}
+class Visitante extends Pessoa{}

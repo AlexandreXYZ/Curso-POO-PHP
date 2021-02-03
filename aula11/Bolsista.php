@@ -25,10 +25,7 @@ class Bolsista extends Aluno{
     function getBolsa() {
         return $this->Bolsa;
     }
-
     function setBolsa($Bolsa): void {
         $this->Bolsa = $Bolsa;
     }
-
-
 }
