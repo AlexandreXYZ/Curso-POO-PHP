@@ -66,7 +66,6 @@ class ControleRemoto implements Controlador{
     //abrir menu
     Public function abrirMenu(){
         if ($this->getLigado() == true){
-            
             //Começo do Menu
             echo "<h4> ------------Menu------------ </h4>";
             

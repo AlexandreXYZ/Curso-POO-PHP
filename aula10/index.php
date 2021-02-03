@@ -27,8 +27,6 @@ and open the template in the editor.
             $p3->setNome("Claudio");
             $p4->setNome("fatima");
             
-            
-            
             print_r($p1);
             print_r($p2);
             print_r($p3);

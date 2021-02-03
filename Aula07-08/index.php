@@ -19,11 +19,11 @@ and open the template in the editor.
             $l[1] = new Lutador("Alberto", "EUA", 27, 1.80, 60);
             //$l[1]->status();
             echo "<br> <br>";
-            //print_r($l[0]);
-//            $luta[0] = new Luta;
-//            $luta[0]->marcarLuta($l[0], $l[1]);
-//            $luta[0]->Lutar();
-//            
+            print_r($l[0]);
+           $luta[0] = new Luta;
+           $luta[0]->marcarLuta($l[0], $l[1]);
+           $luta[0]->Lutar();
+           
         ?>
         </pre>
     </body>

@@ -7,6 +7,12 @@ class Conta {
     private $saldo;
     private $status;
     
+//Metodo padrão\\
+    function __construct() {
+        $this->saldo = 0;
+        $this->status = false;
+    }
+
 //-----Metodos-----//
     public function abrirConta($x){
         
@@ -23,10 +29,7 @@ class Conta {
         }
         
     }
-    function __construct() {
-        $this->saldo = 0;
-        $this->status = false;
-    }
+
 
     public function fecharConta(){
         if($this->saldo == 0){

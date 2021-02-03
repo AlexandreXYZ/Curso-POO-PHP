@@ -1,5 +1,4 @@
 <?php
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,13 +10,16 @@
  *
  * @author Alexandre XYZ
  */
+
 class Caneta {
+    //Atributos\\
     var $modelo;
     var $cor;
     var $ponta;
     var $carga;
     var $tampa;
     
+    //Metodos\\
     function rabiscar() {
         echo "<p>A caneta está rabiscando</p>";
     }

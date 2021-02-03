@@ -13,8 +13,6 @@
             $c1 = new Caneta("bic", 1.5);
             
             print_r($c1);
-            
-            
         ?>
         </pre>
     </body>

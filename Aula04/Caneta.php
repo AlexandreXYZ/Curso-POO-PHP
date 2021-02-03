@@ -1,12 +1,16 @@
 <?php
     class Caneta {
+        //Atributos\\
         public $modelo;
         private $ponta;
         
+        //Metodo Padrao\\
         public function __construct($m, $p) {
             $this->modelo = $m;
             $this->ponta = $p;
         }
+
+        //Metodos getters e setters\\
         public function getModelo(){
             
             return $this->modelo;

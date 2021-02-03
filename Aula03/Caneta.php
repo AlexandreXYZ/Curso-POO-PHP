@@ -12,13 +12,14 @@
  * @author Alexandre XYZ
  */
 class Caneta {
+    //Atributos\\
     public $modelo;
     public $cor;
     private $ponta;
     protected $carga;
     protected $tampada;
     
- 
+    //Metodos\\
     public function rabiscar() {
         if ($this->tampada == true) {
             echo "<p>A caneta está tampada</p>";

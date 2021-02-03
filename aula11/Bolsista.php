@@ -13,7 +13,6 @@
  */
 require_once 'Aluno.php';
 class Bolsista extends Aluno{
-    
     private $Bolsa;
     
     public function RenovarBolsa() {

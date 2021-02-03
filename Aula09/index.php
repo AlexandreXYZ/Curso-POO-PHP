@@ -11,7 +11,6 @@
             require_once 'Publicacao.php';
             require_once 'Livro.php';
             
-            
             $p[0] = new Pessoa("Pedro", 22, "M");
             $p[1] = new Pessoa("Maria", 31, "F");
             $l[0] = new Livro("PHP Basico", "José da Silva", 1993, 300, $p[1]);
