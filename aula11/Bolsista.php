@@ -17,9 +17,11 @@ class Bolsista extends Aluno{
     private $Bolsa;
     
     public function RenovarBolsa() {
-        
+        echo "Bolsa Renovada";
     }
-    
+    public function PagarMensalidade() {
+        Echo "Pagando Mensalidade da Bolsa...";
+    }
     function getBolsa() {
         return $this->Bolsa;
     }

@@ -13,14 +13,31 @@ and open the template in the editor.
         <pre>
         <?php
             require_once 'Pessoa.php';
-            require_once 'Funcionario.php';
+            require_once 'Bolsista.php';
             require_once 'Aluno.php';
-            require_once 'Professor.php';
+            require_once 'Visitante.php';
             
             $v1 = new Visitante();
             $v1->setNome('Carlos');
             $v1->setIdade(25);
             $v1->setSexo('M');
+            //var_dump($v1);
+            print_r($v1);
+            $a = new Aluno();
+            $a->setMatricula(1111);
+            $a->setCurso('Informatica');
+            $a->setNome('Clarisse');
+            $a->setIdade(17);
+            $a->setSexo('F');
+            print_r($a);
+            $a = new Bolsista();
+            $a->setBolsa(12.5);
+            $a->setMatricula(1231);
+            $a->setCurso('Informatica');
+            $a->setNome('Cleber');
+            $a->setIdade(16);
+            $a->setSexo('M');
+            print_r($a);
             
         ?>
         </pre>

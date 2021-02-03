@@ -22,7 +22,7 @@ class Aluno extends Pessoa{
         $this->setMatricula(false);
     }
     public function PagarMensalidade() {
-        
+        Echo "Pagando Mensalidade...";
     }
     
     //metodo padrão
