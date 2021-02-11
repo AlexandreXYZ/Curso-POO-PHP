@@ -1,19 +1,19 @@
 <?php
 require_once 'Animal.php';
-class Reptil extends Animal{
+class Peixe extends Animal{
     
     //atributos
-    private $corEscama;
+    protected $corEscama;
 
     //Metodos
-    private function locomover(){
-        echo "Rastejando";
+    public function locomover(){
+        echo "Nadando";
     }
-    private function alimentar(){
-        echo "Comendo";
+    public function alimentar(){
+        echo "comendo";
     }
-    private function emitirSom(){
-        echo "Som de Reptil";
+    public function emitirSom(){
+        echo "Soltar Bolha";
     }
 
     //Getter e Setter

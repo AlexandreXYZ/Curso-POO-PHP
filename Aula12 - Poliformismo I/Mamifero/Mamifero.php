@@ -3,16 +3,16 @@ require_once 'Animal.php';
 class Mamiferos extends Animal{
     
     //atributos
-    private $corPelo;
+    protected $corPelo;
 
     //Metodos
-    private function locomover(){
+    public function locomover(){
         echo "correndo";
     }
-    private function alimentar(){
+    public function alimentar(){
         echo "mamando";
     }
-    private function emitirSom(){
+    public function emitirSom(){
         echo "Som de Mamifero";
     }
 

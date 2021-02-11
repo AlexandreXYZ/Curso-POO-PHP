@@ -1,44 +1,38 @@
 <?php
-abstract class animal{
+    abstract class Animal{
 
-    //Atributos
-    private $Peso;
-    private $Idade;
-    private $Membros;
+        //Atributos
+        protected $Peso;
+        protected $Idade;
+        protected $Membros;
 
-    //Metodos
-    private function locomover(){
-        echo " ";
-    }
-    private function alimentar(){
-        echo " ";
-    }
-    private function emitirSom(){
-        echo ' ';
-    }
+        //Metodos
+        abstract function locomover();
+        abstract function alimentar();
+        abstract function emitirSom();
 
-    //Metodos Getters e Setters\\
-    #Peso
-    function getPeso(){
-        return $this->Peso;
-    }
-    function setPeso($peso){
-        $this->Peso = $peso;
-    }
+        //Metodos Getters e Setters\\
+        #Peso
+        function getPeso(){
+            return $this->Peso;
+        }
+        function setPeso($peso) : void{
+            $this->Peso = $peso;
+        }
 
-    #Idade
-    function getIdade(){
-        return $this->Idade;
-    }
-    function setIdade($Idade){
-        $this->Idade = $Idade;
-    }
+        #Idade
+        function getIdade(){
+            return $this->Idade;
+        }
+        function setIdade($Idade){
+            $this->Idade = $Idade;
+        }
 
-    #Membros
-    function getMembros(){
-        return $this->Membros;
-    }
-    function setMembros($Membros){
-        $this->Membros = $Membros;
-    }
+        #Membros
+        function getMembros(){
+            return $this->Membros;
+        }
+        function setMembros($Membros){
+            $this->Membros = $Membros;
+        }
 }

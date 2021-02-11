@@ -3,16 +3,16 @@ require_once 'Animal.php';
 class Ave extends Animal{
     
     //atributos
-    private $corPena;
+    protected $corPena;
 
     //Metodos
-    private function locomover(){
+    public function locomover(){
         echo "Voando";
     }
-    private function alimentar(){
+    public function alimentar(){
         echo "Comendo frutas";
     }
-    private function emitirSom(){
+    public function emitirSom(){
         echo "Cantando";
     }
 
